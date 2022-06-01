@@ -1,0 +1,150 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    background-color: #E2FFFF;
+
+
+
+}
+
+div.container {
+    margin: auto;
+    max-width: 60em;
+    background-color: #E2FFFF;
+}
+
+
+body {
+	background-color: #E2FFFF; 
+	color:rgb(30,30,30);  
+	line-height: 140%; 	
+    font-family: hoss-round, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+}
+
+h1 {
+    width: 20em;
+    margin: left;
+    
+}
+
+h2 {
+	background-color:rgb(250,250,250);
+    background-color: #E2FFFF; 
+	color: rgb(221, 0, 174);
+	font-size: 1.75em;
+	padding: 1rem 1rem 1rem;
+	font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+	margin: 1rem 1rem 0rem; 
+	padding-top: .5rem;
+	font-size: 1.5rem;
+	color: #000;
+	font-family: hoss-round,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; 
+	border-top:.1em solid #999999;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+p.description {
+	font-style: italic;
+    color: rgb(30,30,30)
+}
+
+p.price {
+	color: #000;
+}
+
+nav ul {
+    text-align: left;
+    margin: 1em 0em;
+    padding-bottom: 1em;
+    border-bottom: .5px solid #000;
+    font-family: hoss-round, sans-serif;
+    font-style: normal;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    font-family: hoss-round, sans-serif;
+    font-style: normal;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-family: hoss-round, sans-serif;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    color: #999999;
+    font-family: hoss-round, sans-serif;
+    font-style: normal;
+}
+
+li {
+    text-align: left;
+    margin-left: 1em;
+    list-style-type: none;
+}
+
+ul.shop li {
+    max-width: 30em;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+img.small{
+    max-width: 50em;
+    margin-left: 1em;
+} 
+
+
+@media screen and (min-width: 60em) {
+
+    nav ul {
+        text-align: left;
+    }
+
+    ul.shop li {
+        max-width: 20em;
+    }
+
+    ul.shop {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
